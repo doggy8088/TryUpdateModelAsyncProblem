@@ -50,7 +50,7 @@ namespace TryUpdateModelAsyncProblem.Controllers
         {
             var value = new WeatherForecast()
             {
-                Date = DateTime.Now.Date,
+                Date = DateTime.Parse("2019-12-14"),
                 TemperatureC = 100,
                 Summary = ""
             };
